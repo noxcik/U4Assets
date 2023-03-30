@@ -10,13 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6462973876344390295}
   - component: {fileID: 6462973876344390290}
-  - component: {fileID: 6462973876344390291}
   - component: {fileID: 6462973876344390292}
   - component: {fileID: 6462973876344390293}
   - component: {fileID: 6462973876344390294}
   m_Layer: 0
   m_Name: Tree
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,7 +30,6 @@ Transform:
   m_LocalRotation: {x: -0.6893035, y: -0, z: -0, w: 0.7244727}
   m_LocalPosition: {x: 7.36592, y: 36.140564, z: -78.56309}
   m_LocalScale: {x: 0.24, y: 5.78, z: 0.35}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6462973877678965141}
   m_RootOrder: 0
@@ -48,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 2
+  m_MeshFormatVersion: 1
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 1
@@ -507,18 +505,18 @@ MonoBehaviour:
   - {x: -0.9155661, y: 0, z: -0.40216756, w: -1}
   - {x: -0.9155661, y: 0, z: -0.40216753, w: -1}
   - {x: -0.9155661, y: 0, z: -0.40216753, w: -1}
-  - {x: 0.00000016187636, y: 0, z: -1, w: -1}
-  - {x: 0.00000016187636, y: 0, z: -1, w: -1}
-  - {x: 0.00000016187637, y: 0, z: -1, w: -1}
-  - {x: 0.00000016187637, y: 0, z: -1, w: -1}
-  - {x: 0.9155661, y: 0, z: -0.40216744, w: -1}
-  - {x: 0.9155661, y: 0, z: -0.40216744, w: -1}
+  - {x: 0.00000016187634, y: 0, z: -1, w: -1}
+  - {x: 0.00000016187634, y: 0, z: -1, w: -1}
+  - {x: 0.00000008093819, y: 0, z: -1, w: -1}
+  - {x: 0.00000008093819, y: 0, z: -1, w: -1}
+  - {x: 0.91556615, y: 0, z: -0.4021674, w: -1}
+  - {x: 0.91556615, y: 0, z: -0.4021674, w: -1}
   - {x: 0.91556615, y: 0, z: -0.4021675, w: -1}
   - {x: 0.91556615, y: 0, z: -0.4021675, w: -1}
   - {x: 0.9155661, y: 0, z: 0.40216756, w: -1}
   - {x: 0.9155661, y: 0, z: 0.40216756, w: -1}
-  - {x: 0.91556615, y: 0, z: 0.40216744, w: -1}
-  - {x: 0.91556615, y: 0, z: 0.40216744, w: -1}
+  - {x: 0.91556615, y: 0, z: 0.40216747, w: -1}
+  - {x: 0.91556615, y: 0, z: 0.40216747, w: -1}
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
@@ -566,42 +564,10 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1541
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!114 &6462973876344390291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6462973876344390296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 5329153054437277744
-  m_Size: {x: -3.2369545, y: 0.93374866, z: -2.0343251}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1541
-  m_ShapeBox:
-    m_Center: {x: -1.6109796, y: 0.4668744, z: -1.0124506}
-    m_Extent: {x: -1.6184772, y: 0.46687433, z: -1.0171626}
-  references:
-    version: 2
-    RefIds:
-    - rid: 5329153054437277744
-      type: {class: Cylinder, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_AxisDivisions: 6
-        m_HeightCuts: 0
-        m_Smooth: 1
 --- !u!23 &6462973876344390292
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -613,7 +579,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -676,7 +641,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6462973876600452075}
   - component: {fileID: 6462973876600452070}
-  - component: {fileID: 6462973876600452071}
   - component: {fileID: 6462973876600452072}
   - component: {fileID: 6462973876600452073}
   - component: {fileID: 6462973876600452074}
@@ -697,7 +661,6 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 9.689077, y: 36.120564, z: -80.72609}
   m_LocalScale: {x: 1, y: 0.87, z: 0.16}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6462973877678965141}
   m_RootOrder: 6
@@ -714,7 +677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 2
+  m_MeshFormatVersion: 1
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 1
@@ -1173,8 +1136,8 @@ MonoBehaviour:
   - {x: -0.9955522, y: 0, z: -0.09421165, w: -1}
   - {x: -0.9955522, y: 0, z: -0.09421165, w: -1}
   - {x: -0.9955522, y: 0, z: -0.09421165, w: -1}
-  - {x: 0.0000003177473, y: 0, z: -1, w: -1}
-  - {x: 0.0000003177473, y: 0, z: -1, w: -1}
+  - {x: 0.00000031774724, y: 0, z: -1, w: -1}
+  - {x: 0.00000031774724, y: 0, z: -1, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
   - {x: 0.9955522, y: 0, z: -0.09421161, w: -1}
@@ -1232,42 +1195,10 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1756
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!114 &6462973876600452071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6462973876600452076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 5329153054437277748
-  m_Size: {x: -3.604723, y: 0.066868745, z: 0.3974555}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1750
-  m_ShapeBox:
-    m_Center: {x: -1.8001328, y: 0.033434235, z: 0.19848183}
-    m_Extent: {x: -1.8023615, y: 0.033434372, z: 0.19872776}
-  references:
-    version: 2
-    RefIds:
-    - rid: 5329153054437277748
-      type: {class: Cylinder, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_AxisDivisions: 6
-        m_HeightCuts: 0
-        m_Smooth: 1
 --- !u!23 &6462973876600452072
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1279,7 +1210,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1342,7 +1272,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6462973877052272548}
   - component: {fileID: 6462973877052272575}
-  - component: {fileID: 6462973877052272544}
   - component: {fileID: 6462973877052272545}
   - component: {fileID: 6462973877052272546}
   - component: {fileID: 6462973877052272547}
@@ -1363,7 +1292,6 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 9.689077, y: 36.120564, z: -83.53209}
   m_LocalScale: {x: 1, y: 0.87, z: 0.16}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6462973877678965141}
   m_RootOrder: 4
@@ -1380,7 +1308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 2
+  m_MeshFormatVersion: 1
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 1
@@ -1839,8 +1767,8 @@ MonoBehaviour:
   - {x: -0.9955522, y: 0, z: -0.09421165, w: -1}
   - {x: -0.9955522, y: 0, z: -0.09421165, w: -1}
   - {x: -0.9955522, y: 0, z: -0.09421165, w: -1}
-  - {x: 0.0000003177473, y: 0, z: -1, w: -1}
-  - {x: 0.0000003177473, y: 0, z: -1, w: -1}
+  - {x: 0.00000031774724, y: 0, z: -1, w: -1}
+  - {x: 0.00000031774724, y: 0, z: -1, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
   - {x: 0.9955522, y: 0, z: -0.09421161, w: -1}
@@ -1898,42 +1826,10 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1750
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!114 &6462973877052272544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6462973877052272549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 5329153054437277748
-  m_Size: {x: -3.604723, y: 0.066868745, z: 0.3974555}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1750
-  m_ShapeBox:
-    m_Center: {x: -1.8001328, y: 0.033434235, z: 0.19848183}
-    m_Extent: {x: -1.8023615, y: 0.033434372, z: 0.19872776}
-  references:
-    version: 2
-    RefIds:
-    - rid: 5329153054437277748
-      type: {class: Cylinder, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_AxisDivisions: 6
-        m_HeightCuts: 0
-        m_Smooth: 1
 --- !u!23 &6462973877052272545
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1945,7 +1841,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2008,13 +1903,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6462973877299697429}
   - component: {fileID: 6462973877299697424}
-  - component: {fileID: 6462973877299697425}
   - component: {fileID: 6462973877299697426}
   - component: {fileID: 6462973877299697427}
   - component: {fileID: 6462973877299697428}
   m_Layer: 0
   m_Name: Tree (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2029,7 +1923,6 @@ Transform:
   m_LocalRotation: {x: -0.6893035, y: -0, z: -0, w: 0.7244727}
   m_LocalPosition: {x: 9.511078, y: 36.140564, z: -78.56309}
   m_LocalScale: {x: 0.24, y: 5.78, z: 0.35}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6462973877678965141}
   m_RootOrder: 3
@@ -2046,7 +1939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 2
+  m_MeshFormatVersion: 1
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 1
@@ -2505,18 +2398,18 @@ MonoBehaviour:
   - {x: -0.9155661, y: 0, z: -0.40216756, w: -1}
   - {x: -0.9155661, y: 0, z: -0.40216753, w: -1}
   - {x: -0.9155661, y: 0, z: -0.40216753, w: -1}
-  - {x: 0.00000016187636, y: 0, z: -1, w: -1}
-  - {x: 0.00000016187636, y: 0, z: -1, w: -1}
-  - {x: 0.00000016187637, y: 0, z: -1, w: -1}
-  - {x: 0.00000016187637, y: 0, z: -1, w: -1}
-  - {x: 0.9155661, y: 0, z: -0.40216744, w: -1}
-  - {x: 0.9155661, y: 0, z: -0.40216744, w: -1}
+  - {x: 0.00000016187634, y: 0, z: -1, w: -1}
+  - {x: 0.00000016187634, y: 0, z: -1, w: -1}
+  - {x: 0.00000008093819, y: 0, z: -1, w: -1}
+  - {x: 0.00000008093819, y: 0, z: -1, w: -1}
+  - {x: 0.91556615, y: 0, z: -0.4021674, w: -1}
+  - {x: 0.91556615, y: 0, z: -0.4021674, w: -1}
   - {x: 0.91556615, y: 0, z: -0.4021675, w: -1}
   - {x: 0.91556615, y: 0, z: -0.4021675, w: -1}
   - {x: 0.9155661, y: 0, z: 0.40216756, w: -1}
   - {x: 0.9155661, y: 0, z: 0.40216756, w: -1}
-  - {x: 0.91556615, y: 0, z: 0.40216744, w: -1}
-  - {x: 0.91556615, y: 0, z: 0.40216744, w: -1}
+  - {x: 0.91556615, y: 0, z: 0.40216747, w: -1}
+  - {x: 0.91556615, y: 0, z: 0.40216747, w: -1}
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
@@ -2564,42 +2457,10 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1550
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!114 &6462973877299697425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6462973877299697430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 5329153054437277744
-  m_Size: {x: -3.2369545, y: 0.93374866, z: -2.0343251}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1541
-  m_ShapeBox:
-    m_Center: {x: -1.6109796, y: 0.4668744, z: -1.0124506}
-    m_Extent: {x: -1.6184772, y: 0.46687433, z: -1.0171626}
-  references:
-    version: 2
-    RefIds:
-    - rid: 5329153054437277744
-      type: {class: Cylinder, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_AxisDivisions: 6
-        m_HeightCuts: 0
-        m_Smooth: 1
 --- !u!23 &6462973877299697426
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2611,7 +2472,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2674,13 +2534,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6462973877493110588}
   - component: {fileID: 6462973877493110583}
-  - component: {fileID: 6462973877493110584}
   - component: {fileID: 6462973877493110585}
   - component: {fileID: 6462973877493110586}
   - component: {fileID: 6462973877493110587}
   m_Layer: 0
   m_Name: Tree (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2695,7 +2554,6 @@ Transform:
   m_LocalRotation: {x: -0.6893035, y: -0, z: -0, w: 0.7244727}
   m_LocalPosition: {x: 8.101078, y: 36.140564, z: -78.56309}
   m_LocalScale: {x: 0.24, y: 5.78, z: 0.35}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6462973877678965141}
   m_RootOrder: 1
@@ -2712,7 +2570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 2
+  m_MeshFormatVersion: 1
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 1
@@ -3171,18 +3029,18 @@ MonoBehaviour:
   - {x: -0.9155661, y: 0, z: -0.40216756, w: -1}
   - {x: -0.9155661, y: 0, z: -0.40216753, w: -1}
   - {x: -0.9155661, y: 0, z: -0.40216753, w: -1}
-  - {x: 0.00000016187636, y: 0, z: -1, w: -1}
-  - {x: 0.00000016187636, y: 0, z: -1, w: -1}
-  - {x: 0.00000016187637, y: 0, z: -1, w: -1}
-  - {x: 0.00000016187637, y: 0, z: -1, w: -1}
-  - {x: 0.9155661, y: 0, z: -0.40216744, w: -1}
-  - {x: 0.9155661, y: 0, z: -0.40216744, w: -1}
+  - {x: 0.00000016187634, y: 0, z: -1, w: -1}
+  - {x: 0.00000016187634, y: 0, z: -1, w: -1}
+  - {x: 0.00000008093819, y: 0, z: -1, w: -1}
+  - {x: 0.00000008093819, y: 0, z: -1, w: -1}
+  - {x: 0.91556615, y: 0, z: -0.4021674, w: -1}
+  - {x: 0.91556615, y: 0, z: -0.4021674, w: -1}
   - {x: 0.91556615, y: 0, z: -0.4021675, w: -1}
   - {x: 0.91556615, y: 0, z: -0.4021675, w: -1}
   - {x: 0.9155661, y: 0, z: 0.40216756, w: -1}
   - {x: 0.9155661, y: 0, z: 0.40216756, w: -1}
-  - {x: 0.91556615, y: 0, z: 0.40216744, w: -1}
-  - {x: 0.91556615, y: 0, z: 0.40216744, w: -1}
+  - {x: 0.91556615, y: 0, z: 0.40216747, w: -1}
+  - {x: 0.91556615, y: 0, z: 0.40216747, w: -1}
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
@@ -3230,42 +3088,10 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1544
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!114 &6462973877493110584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6462973877493110589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 5329153054437277744
-  m_Size: {x: -3.2369545, y: 0.93374866, z: -2.0343251}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1541
-  m_ShapeBox:
-    m_Center: {x: -1.6109796, y: 0.4668744, z: -1.0124506}
-    m_Extent: {x: -1.6184772, y: 0.46687433, z: -1.0171626}
-  references:
-    version: 2
-    RefIds:
-    - rid: 5329153054437277744
-      type: {class: Cylinder, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_AxisDivisions: 6
-        m_HeightCuts: 0
-        m_Smooth: 1
 --- !u!23 &6462973877493110585
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3277,7 +3103,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3340,13 +3165,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6462973877633333120}
   - component: {fileID: 6462973877633333147}
-  - component: {fileID: 6462973877633333148}
   - component: {fileID: 6462973877633333149}
   - component: {fileID: 6462973877633333150}
   - component: {fileID: 6462973877633333151}
   m_Layer: 0
   m_Name: Tree (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3361,7 +3185,6 @@ Transform:
   m_LocalRotation: {x: -0.6893035, y: -0, z: -0, w: 0.7244727}
   m_LocalPosition: {x: 8.8520775, y: 36.140564, z: -78.56309}
   m_LocalScale: {x: 0.24, y: 5.78, z: 0.35}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6462973877678965141}
   m_RootOrder: 2
@@ -3378,7 +3201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 2
+  m_MeshFormatVersion: 1
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 1
@@ -3837,18 +3660,18 @@ MonoBehaviour:
   - {x: -0.9155661, y: 0, z: -0.40216756, w: -1}
   - {x: -0.9155661, y: 0, z: -0.40216753, w: -1}
   - {x: -0.9155661, y: 0, z: -0.40216753, w: -1}
-  - {x: 0.00000016187636, y: 0, z: -1, w: -1}
-  - {x: 0.00000016187636, y: 0, z: -1, w: -1}
-  - {x: 0.00000016187637, y: 0, z: -1, w: -1}
-  - {x: 0.00000016187637, y: 0, z: -1, w: -1}
-  - {x: 0.9155661, y: 0, z: -0.40216744, w: -1}
-  - {x: 0.9155661, y: 0, z: -0.40216744, w: -1}
+  - {x: 0.00000016187634, y: 0, z: -1, w: -1}
+  - {x: 0.00000016187634, y: 0, z: -1, w: -1}
+  - {x: 0.00000008093819, y: 0, z: -1, w: -1}
+  - {x: 0.00000008093819, y: 0, z: -1, w: -1}
+  - {x: 0.91556615, y: 0, z: -0.4021674, w: -1}
+  - {x: 0.91556615, y: 0, z: -0.4021674, w: -1}
   - {x: 0.91556615, y: 0, z: -0.4021675, w: -1}
   - {x: 0.91556615, y: 0, z: -0.4021675, w: -1}
   - {x: 0.9155661, y: 0, z: 0.40216756, w: -1}
   - {x: 0.9155661, y: 0, z: 0.40216756, w: -1}
-  - {x: 0.91556615, y: 0, z: 0.40216744, w: -1}
-  - {x: 0.91556615, y: 0, z: 0.40216744, w: -1}
+  - {x: 0.91556615, y: 0, z: 0.40216747, w: -1}
+  - {x: 0.91556615, y: 0, z: 0.40216747, w: -1}
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
@@ -3896,42 +3719,10 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1547
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!114 &6462973877633333148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6462973877633333121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 5329153054437277744
-  m_Size: {x: -3.2369545, y: 0.93374866, z: -2.0343251}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1541
-  m_ShapeBox:
-    m_Center: {x: -1.6109796, y: 0.4668744, z: -1.0124506}
-    m_Extent: {x: -1.6184772, y: 0.46687433, z: -1.0171626}
-  references:
-    version: 2
-    RefIds:
-    - rid: 5329153054437277744
-      type: {class: Cylinder, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_AxisDivisions: 6
-        m_HeightCuts: 0
-        m_Smooth: 1
 --- !u!23 &6462973877633333149
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3943,7 +3734,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4022,7 +3812,6 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 53.481506, y: -28.1477, z: 112.36218}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6462973876344390295}
   - {fileID: 6462973877493110588}
@@ -4045,7 +3834,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6462973877889211187}
   - component: {fileID: 6462973877889211150}
-  - component: {fileID: 6462973877889211151}
   - component: {fileID: 6462973877889211184}
   - component: {fileID: 6462973877889211185}
   - component: {fileID: 6462973877889211186}
@@ -4066,7 +3854,6 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 9.689077, y: 36.120564, z: -82.36809}
   m_LocalScale: {x: 1, y: 0.87, z: 0.16}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6462973877678965141}
   m_RootOrder: 5
@@ -4083,7 +3870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 2
+  m_MeshFormatVersion: 1
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 1
@@ -4542,8 +4329,8 @@ MonoBehaviour:
   - {x: -0.9955522, y: 0, z: -0.09421165, w: -1}
   - {x: -0.9955522, y: 0, z: -0.09421165, w: -1}
   - {x: -0.9955522, y: 0, z: -0.09421165, w: -1}
-  - {x: 0.0000003177473, y: 0, z: -1, w: -1}
-  - {x: 0.0000003177473, y: 0, z: -1, w: -1}
+  - {x: 0.00000031774724, y: 0, z: -1, w: -1}
+  - {x: 0.00000031774724, y: 0, z: -1, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
   - {x: 0.9955522, y: 0, z: -0.09421161, w: -1}
@@ -4601,42 +4388,10 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1753
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!114 &6462973877889211151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6462973877889211188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 5329153054437277748
-  m_Size: {x: -3.604723, y: 0.066868745, z: 0.3974555}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1750
-  m_ShapeBox:
-    m_Center: {x: -1.8001328, y: 0.033434235, z: 0.19848183}
-    m_Extent: {x: -1.8023615, y: 0.033434372, z: 0.19872776}
-  references:
-    version: 2
-    RefIds:
-    - rid: 5329153054437277748
-      type: {class: Cylinder, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_AxisDivisions: 6
-        m_HeightCuts: 0
-        m_Smooth: 1
 --- !u!23 &6462973877889211184
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4648,7 +4403,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4711,7 +4465,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6462973877897598659}
   - component: {fileID: 6462973877897598686}
-  - component: {fileID: 6462973877897598687}
   - component: {fileID: 6462973877897598656}
   - component: {fileID: 6462973877897598657}
   - component: {fileID: 6462973877897598658}
@@ -4732,7 +4485,6 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 9.689077, y: 35.956566, z: -78.982086}
   m_LocalScale: {x: 1, y: 0.87, z: 0.16}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6462973877678965141}
   m_RootOrder: 7
@@ -4749,7 +4501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 2
+  m_MeshFormatVersion: 1
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 1
@@ -5208,8 +4960,8 @@ MonoBehaviour:
   - {x: -0.9955522, y: 0, z: -0.09421165, w: -1}
   - {x: -0.9955522, y: 0, z: -0.09421165, w: -1}
   - {x: -0.9955522, y: 0, z: -0.09421165, w: -1}
-  - {x: 0.0000003177473, y: 0, z: -1, w: -1}
-  - {x: 0.0000003177473, y: 0, z: -1, w: -1}
+  - {x: 0.00000031774724, y: 0, z: -1, w: -1}
+  - {x: 0.00000031774724, y: 0, z: -1, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
   - {x: 0.9955522, y: 0, z: -0.09421161, w: -1}
@@ -5267,42 +5019,10 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1759
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!114 &6462973877897598687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6462973877897598660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Shape:
-    rid: 5329153054437277748
-  m_Size: {x: -3.604723, y: 0.066868745, z: 0.3974555}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_PivotLocation: 1
-  m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 1750
-  m_ShapeBox:
-    m_Center: {x: -1.8001328, y: 0.033434235, z: 0.19848183}
-    m_Extent: {x: -1.8023615, y: 0.033434372, z: 0.19872776}
-  references:
-    version: 2
-    RefIds:
-    - rid: 5329153054437277748
-      type: {class: Cylinder, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data:
-        m_AxisDivisions: 6
-        m_HeightCuts: 0
-        m_Smooth: 1
 --- !u!23 &6462973877897598656
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5314,7 +5034,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
