@@ -43464,7 +43464,7 @@ GameObject:
   - component: {fileID: 1001640052568842596}
   m_Layer: 0
   m_Name: Plane (1)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45549,7 +45549,7 @@ GameObject:
   - component: {fileID: 1001640052689347787}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
