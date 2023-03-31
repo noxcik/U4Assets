@@ -12,8 +12,7 @@ public class player_control : MonoBehaviour
     public float sens_mouse_y;
     public Transform forwardPoint;
     public Transform rightPoint;
-    public Transform camera;
-    
+    public Transform camera; 
 
     float normalMoveSpeed;
     float smallerMoveSpeed;
@@ -69,7 +68,7 @@ public class player_control : MonoBehaviour
         }
         body.AddForce((forwardPoint.position - transform.position) * forward);
         body.AddForce((rightPoint.position - transform.position) * right);
-        if(Input.GetKey(KeyCode.Space) && onGround && canJump && Physics.Raycast(transform.position, Vector3.down, 0.6f)){// На земле, можем прыгать и под ногами что-то есть
+        if(Input.GetKey(KeyCode.Space) && onGround && canJump && Physics.Raycast(transform.position, Vector3.down, 1f)){// На земле, можем прыгать и под ногами что-то есть
             //Debug.Log("Press Space");
             StartCoroutine(Jump());
         }
