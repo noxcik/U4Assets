@@ -42,6 +42,7 @@ public class player_control : MonoBehaviour
         anim = GetComponent<Animator>();
         normalMoveSpeed  = moveSpeed;
         smallerMoveSpeed = moveSpeed * 0.7f;
+        Cursor.visible = false;
     }
     IEnumerator Jump() // fix: Теперь в отдельной функции, для более правильного прыжка и порядка кода
     {
@@ -83,7 +84,7 @@ public class player_control : MonoBehaviour
         if(camera.rotation.x > 60){
             camera.rotation = Quaternion.Euler(60, 0, 0);
         }
-        if(transform.position.y < -30){
+        if(transform.position.y < -30 || Input.GetKey(KeyCode.R)){
             //restart scene
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // именно текущую сцену
         }
